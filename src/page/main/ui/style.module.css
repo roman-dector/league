@@ -1,0 +1,16 @@
+.newsList,
+.programsList {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.programsList {
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}

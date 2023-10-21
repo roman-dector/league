@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.ava {
+  margin-bottom: 50px;
+}
+
+.info {
+  display: flex;
+  gap: 20px;
+  color: #000;
+  margin-bottom: 30px;
+}

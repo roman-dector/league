@@ -1,3 +1,17 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "@feature-sliced",
+    "plugin:@conarti/feature-sliced/recommended",
+    "plugin:storybook/recommended"
+  ],
+  "react/display-name": "off",
+  "parser": "@typescript-eslint/parser",
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      }
+    }
+  }
 }

@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  margin: 20px 0 0;
+}
+
+.list {
+  width: 300px;
+}
+
+.player {
+  height: 500px;
+}
